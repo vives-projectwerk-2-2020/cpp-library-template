@@ -1,4 +1,4 @@
-#pragma once
+#pragma once    // Makes sure includes are only included once
 
 namespace LibraryName
 {

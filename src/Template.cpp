@@ -3,7 +3,7 @@
 namespace LibraryName{
 
     void exampleMethod() {
-        // Method implementation goes in the cpp file
+        // Method implementation goes here, in the cpp file
     }
 
     // No attributes here
