@@ -43,7 +43,7 @@ Take a good long look at your code, are you happy with it? Are you finding some 
 
 Group the parts of your code that do the same thing in a function.
 After doing this our code might look a little more like this:
-````
+```
 #include "mbed.h"
  
 DigitalOut pin(LED2);
