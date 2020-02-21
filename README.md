@@ -1,4 +1,4 @@
-# A C++ Library template and How-To
+# A C++ (mbed) Library template and How-To
 A C++ template and how-to for converting proof-of-concept code to a building block for (larger) projects.
 
 ## What is a library (for)
@@ -83,8 +83,19 @@ Be sure NOT to follow the guide on how to publish a library found on the website
 If you have been pushing your code to Github this whole time, then you are ready. Just make sure your repo is public. Anyone that wants to use it will be able to.
 If you haven't yet done that, create a repo and push your project to Github. There your know ready too.
 
-### Step 4 - Using a (your) library
+### Step 4 - Documentation
+Arguably the most important step.
 
+You have just created this library, you probably know how to use it quite well. However, someone else (or yourself in the future) will need allot of time to figure it out without proper documentation.
+Use the README in the root of your project to explain how people should make use of your library. In other words: a short description of what it does, what methods are available (i.e. what it's API is), how they should import it into their project, ...
+
+Anybody wanting to use it will be forever grateful to you for offering clear documentation (ok, maybe not, but no one will use it if they don't know how :)
+
+### Step 5 - Making use of your freshly brewed library
+* In the project where you want to make use of it open up a terminal
+* type `mbed add [https link to the github repo of the library]`
+* ``#include`` the header file of the class you want to use where you need it
+* you're set, time to rock 'n roll !
 
 
 
