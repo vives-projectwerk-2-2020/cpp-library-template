@@ -84,7 +84,7 @@ If you have been pushing your code to Github this whole time, then you are ready
 If you haven't yet done that, create a repo and push your project to Github. There your know ready too.
 
 Also a word about the `.gitignore` file, if you make use of library's yourself then make sure to add those directories to the `.gitignore` file (not the .lib files, only the directories of those libraries).
-You are not responsible for that, so it should not be in your library's repo. When the `mbed add` command is executed (see the last step in this readme for a little more info on that) those library's will be incorporated into the project as wel.
+You are not responsible for that code, so it should not be in your library's repo. When the `mbed add` command is executed (see the last step in this readme for a little more info on that) those library's will be incorporated into the project as wel.
 
 ### Step 4 - Documentation
 Arguably the most important step.
