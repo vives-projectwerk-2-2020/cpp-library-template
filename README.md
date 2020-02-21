@@ -81,7 +81,7 @@ Take a look at the class template in this repo. It's in the src directory. You w
 Be sure NOT to follow the guide on how to publish a library found on the website of which the link can be found below.
 
 If you have been pushing your code to Github this whole time, then you are ready. Just make sure your repo is public. Anyone that wants to use it will be able to.
-If you haven't yet done that, create a repo and push your project to Github. There your know ready too.
+If you haven't yet done that, create a repo and push your project to Github. There, you're ready too.
 
 Also a word about the `.gitignore` file, if you make use of library's yourself then make sure to add those directories to the `.gitignore` file (not the .lib files, only the directories of those libraries).
 You are not responsible for that code, so it should not be in your library's repo. When the `mbed add` command is executed (see the last step in this readme for a little more info on that) those library's will be incorporated into the project as wel.
